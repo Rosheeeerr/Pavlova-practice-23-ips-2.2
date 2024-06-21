@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color: #444444;
+}
+header{
+height: 25vh;
+background-color: #444444;
+}
+.logo-header{
+    width: 150px;
+    height: 150px;
+}
+.general_nav-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:  solid 2px rgb(255, 255, 255);
+}
+.header-burger{
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    z-index: 15;
+    right: -70%;
+    transition: 0.25s all ease;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burger-block{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 15vh;
+    display: flex;
+    align-items: end;
+}
+.line_bottom{
+    margin: 0 auto;
+    width: 90%;
+ border-bottom:  solid 3px rgb(255, 255, 255);
+}
+.descriptiom{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    width: 40vw;
+    font-weight: 500;
+    font-style: italic;
+}
+.text_header{
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    width: 50vw;
+    height: 70vh;
+}
+h1{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 65px;
+    font-style: italic;
+    font-weight: 800;
+    width: 40vw;
+    height: 30vh;
+}
+.burgerClose{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.spisok-burger{
+    list-style: none;
+}
+.links-burger{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color:#D49E35;
+    font-size: 35px;
+    font-weight: 700;
+}
+.stroca-poiska{
+    width:90vh;
+    height: 7vh;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    border-top: #EEEEEE;
+    border-left: #EEEEEE;
+    background-image: url("/пикчерс/search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 7%;
+    text-indent: 2%;
+}
+.search{
+    height: 15vh;
+    display: flex;
+    align-items: end;
+}
+.header-burger-close{
+    margin-top: -300px;
+    margin-left: 350px;
+}
+.information-fo-user{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 50vh;
+}
+.li-a{
+    height: 60px;
+}
+
+.general-container-prices{
+    width: 100%;
+    height: 160vh;
+    background-color: #444444;
+}
+.zag-price{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+.head-price{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pay-house-cont{
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* background-color: chartreuse; */
+}
+.houde-block-1{
+    width: 40%;
+    height: 70vh;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.houde-block-2{
+    width: 40%;
+    height: 70vh;
+    background-color: #ffffff;
+     border-radius: 20px;
+}
+.proj-1{
+    width: 100%;
+    height: 40vh;
+    /* background-color: aqua; */
+   
+}
+.gen-info_price-1{
+    width: 100%;
+}
+.num_proj-1{
+width: 100%;
+height: 10vh;
+display: flex;
+justify-content: center;
+}
+.razm_proj-1{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.price_proj-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pr-1{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #D49E35;
+    font-size: 40px;
+    font-weight: 600;
+}
+.raz-1{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 600;
+}
+.price-1{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+}
+.num_proj-2{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    }
+    .pr-2{
+        font-family: "Inter", sans-serif;
+        text-decoration: none;
+        color: #D49E35;
+        font-size: 40px;
+        font-weight: 600;
+    }  
+    .pay-house-cont-2{
+        width: 90%;
+        height: 80vh;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        /* background-color: chartreuse; */
+    }   
+    .houde-block-3{
+        width: 40%;
+        height: 70vh;
+        background-color: #ffffff;
+        margin-top: 60px;
+        border-radius: 20px;
+    }
+    .houde-block-4{
+        width: 40%;
+        height: 70vh;
+        background-color: #ffffff;
+        margin-top: 60px;
+        border-radius: 20px;
+    }
+    .footer_container-general{
+        width: 100%;
+        height: 15vh;
+        background-color:#D49E35;
+    }
+    .footer-container{
+        width: 100%;
+        height: 15vh;
+    }
+    .logo-text-footer{
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+    }
+    .logo-footer{
+        width: 100px;
+        height: 100px;
+    }
+    .place-text{
+        font-family: "Inter", sans-serif;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        width: 220px;
+        text-align: center;
+    }
+    .telephone-text{
+        font-family: "Inter", sans-serif;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        width: 190px;
+        text-align: center;
+    }
+    .text-footer-container{
+        display: flex;
+        align-items: end;
+        height: 10vh;
+    }
+    .social-networs-container{
+        width: 90%;
+        display: flex;
+        justify-content: right;
+        margin-top: -90px;
+    }
+    .us-soc{
+        font-family: "Inter", sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .header-soc_netw{
+        width: 100%;
+        display: flex;
+    }
+    .icons{
+        width: 100%;
+        height: 7vh;
+        align-items: end;
+        display: flex;
+        justify-content: space-between;
+    }
+    .soc-icon-img{
+        width: 38px;
+        height: 38px;
+    }
+    @media (max-width:992px) {
+        header{
+           height: 16vh;
+           background-size: cover;
+        }
+        h1{
+           color: white;
+           font-size: 65px;
+           width: 76vw;
+           height: 16vh;
+       }
+       .text_container{
+           width: 39vw;
+           height: 70vh;
+       }
+       .descriptiom{
+           width: 47vw;
+       }
+       .search {
+        height: 10vh;
+       }
+       .stroca-poiska {
+        width: 33vh;
+        height: 4vh;}
+        .bu-logo{
+            width: 52px;
+        height: 37px;
+        }
+        .burger-block {
+            height: 9.5vh;
+        }
+        .burger-block {
+            height: 9.5vh;
+        }
+        .header-burger {
+            position: fixed;
+            width: 50%;
+            height: 100%;
+            z-index: 15;
+            right: -70%;
+            transition: 0.25s all ease;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .header-burger-close {
+            margin-top: -545px;
+            margin-left: 290px;
+        }
+        .information-fo-user {
+            height: 31vh;
+        }
+        .header-burger-close {
+            margin-top: -373px;
+            margin-left: 290px;
+        }
+        .zag-price {
+            font-size: 40px;
+        }
+        .num_proj-1 {
+            height: 5vh;
+        }
+        .num_proj-2 {
+            height: 5vh;
+        }
+        .razm_proj-1 {
+            height: 3vh;
+        }
+        .houde-block-1 {
+            width: 45%;
+            height: 55vh;
+            background-color: #ffffff;
+            border-radius: 20px;
+        }
+        .houde-block-2 {
+            width: 45%;
+            height: 55vh;
+            background-color: #ffffff;
+            border-radius: 20px;
+        }
+        .houde-block-3 {
+            width: 45%;
+            height: 55vh;
+            background-color: #ffffff;
+            border-radius: 20px;
+        }
+        .houde-block-4 {
+            width: 45%;
+            height: 55vh;
+            background-color: #ffffff;
+            border-radius: 20px;
+        }
+        .pay-house-cont {
+            height: 51vh;
+        }
+        .footer_container-general {
+            width: 100%;
+            height: 15vh;
+        }
+        .text-footer-container {
+            height: 7vh;
+        }
+        .place-text {
+            font-size: 13px;
+        }
+        .telephone-text {
+        font-size: 14px;
+        }
+        .us-soc {
+        font-size: 16px;
+        }
+        .icons {
+        height: 4vh;
+        }
+        .social-networs-container {
+        width: 97%;
+        }
+        footer{
+            width: 100%;
+            height: 55vh;
+        }
+        .general-container-prices {
+            width: 100%;
+            height: 121vh;
+            background-color: #444444;
+        }
+    }
+    @media (max-width:430px){
+        .logo-header {
+            width: 71px;
+            height: 77px;
+        }
+        h1 {
+            color: white;
+            font-size: 34px;
+            width: 76vw;
+            height: 16vh;
+        }
+            .stroca-poiska {
+                width: 20vh;
+                height: 4vh;
+            }
+            .search {
+                height: 7vh;
+            }
+            .bu-logo {
+                width: 39px;
+                height: 26px;
+            }
+            .burger-block {
+                height: 6.5vh;
+            }
+            .burger-block {
+                height: 6.5vh;
+            }
+            .header-burger {
+                width: 100%;
+                right: 3%;
+            }
+            .header-burger-close {
+                margin-top: -373px;
+                margin-left: 281px;
+            }
+            .information-fo-user {
+                height: 39vh;
+            }
+            .zag-price {
+                font-size: 24px;
+            }
+            .proj-1 {
+                width: 100%;
+                height: 24vh;
+                /* background-color: aqua; */
+            }
+            .houde-block-1{
+                width: 45%;
+                height: 39vh;
+                background-color: #ffffff;
+                border-radius: 20px;
+            }
+            .houde-block-2 {
+                width: 45%;
+                height: 39vh;
+                background-color: #ffffff;
+                border-radius: 20px;
+            }
+            .houde-block-3 {
+                width: 45%;
+                height: 39vh;
+                background-color: #ffffff;
+                border-radius: 20px;
+            }
+            .houde-block-4{
+                width: 45%;
+                height: 39vh;
+                background-color: #ffffff;
+                border-radius: 20px;
+            }
+            .pr-1 {
+                font-family: "Inter", sans-serif;
+                text-decoration: none;
+                color: #D49E35;
+                font-size: 19px;
+                font-weight: 600;
+            }
+            .pr-2 {
+                font-family: "Inter", sans-serif;
+                text-decoration: none;
+                color: #D49E35;
+                font-size: 19px;
+                font-weight: 600;
+            }
+            .pay-house-cont {
+                height: 35vh;
+            }
+            .general-container-prices {
+                width: 100%;
+                height: 92vh;
+                background-color: #444444;
+            }
+            .social-networs-container {
+                width: 76%;
+                margin-top: -22px;
+            }
+            .soc-icon-img {
+                width: 24px;
+                height: 28px;
+            }
+            .place-text {
+                font-size: 12px;
+                width: 125px;
+            }
+            .telephone-text {
+                font-size: 15px;
+                width: 175px;
+            }
+            .logo-footer {
+                width: 88px;
+                height: 78px;
+            }
+            footer{
+                height: 34vh;
+            }
+        }

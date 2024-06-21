@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color: #444444;
+}
+header{
+height: 27vh;
+background-color: #444444;
+}
+.logo-header{
+    width: 150px;
+    height: 150px;
+}
+.general_nav-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:  solid 2px rgb(255, 255, 255);
+}
+.header-burger{
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    z-index: 15;
+    right: -70%;
+    transition: 0.25s all ease;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burger-block{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 15vh;
+    display: flex;
+    align-items: end;
+}
+.line_bottom{
+    margin: 0 auto;
+    width: 90%;
+ border-bottom:  solid 3px rgb(255, 255, 255);
+}
+.descriptiom{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    width: 40vw;
+    font-weight: 500;
+    font-style: italic;
+}
+.text_header{
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    width: 50vw;
+    height: 70vh;
+}
+h1{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 65px;
+    font-style: italic;
+    font-weight: 800;
+    width: 40vw;
+    height: 30vh;
+}
+.burgerClose{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.spisok-burger{
+    list-style: none;
+}
+.links-burger{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color:#D49E35;
+    font-size: 35px;
+    font-weight: 700;
+}
+.stroca-poiska{
+    width:90vh;
+    height: 7vh;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    border-top: #EEEEEE;
+    border-left: #EEEEEE;
+    background-image: url("/пикчерс/search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 7%;
+    text-indent: 2%;
+}
+.search{
+    height: 15vh;
+    display: flex;
+    align-items: end;
+}
+.header-burger-close{
+    margin-top: -300px;
+    margin-left: 350px;
+}
+.information-fo-user{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 50vh;
+}
+.li-a{
+    height: 60px;
+}
+
+
+   
+
+.general-container-portfolio{
+    width: 100%;
+    height: 190vh;
+    background-color: #444444;
+}
+.heding-portfolio-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.heading-portfolio{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.portfolio-container{
+    width: 85%;
+    height: 50vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.container-picture-one{
+    width: 40vw;
+    height: 50vh;
+    /* background-color: #d44a35; */
+}
+.container-picture-two{
+    width: 40vw;
+    height: 50vh;
+    /* background-color: #35d45a; */
+}
+.dop-container-one{
+    width: 100%;
+    height: 60vh;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+.img-portfolio-1{
+    width: 40vw;
+    height: 40vh;
+}
+.description{
+    width: 30vw;
+    height: 10vh;
+    background-color: #D49E35;
+   
+}
+.move-block-1{
+    width: 100%;
+    height: 8vh;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+.block-text-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text-1{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 18px;
+    width: 20vw;
+    font-weight: 600;
+    text-align: center;
+}
+.text-2{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 18px;
+    width: 25vw;
+    font-weight: 600;
+    text-align: center;
+}
+.block-text-2{
+    width: 100%;
+    height: 7vh;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+.text-3{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 18px;
+    width: 25vw;
+    font-weight: 600;
+    text-align: center;
+}
+.block-text-3{
+    width: 100%;
+    height: 9.5vh;
+    align-items: end;
+    display: flex;
+    justify-content: center;
+}
+.footer_container-general{
+    width: 100%;
+    height: 15vh;
+    background-color:#D49E35;
+}
+.footer-container{
+    width: 100%;
+    height: 15vh;
+}
+.logo-text-footer{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.logo-footer{
+    width: 100px;
+    height: 100px;
+}
+.place-text{
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    width: 220px;
+    text-align: center;
+}
+.telephone-text{
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    width: 190px;
+    text-align: center;
+}
+.text-footer-container{
+    display: flex;
+    align-items: end;
+    height: 10vh;
+}
+.social-networs-container{
+    width: 90%;
+    display: flex;
+    justify-content: right;
+    margin-top: -90px;
+}
+.us-soc{
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.header-soc_netw{
+    width: 100%;
+    display: flex;
+}
+.icons{
+    width: 100%;
+    height: 7vh;
+    align-items: end;
+    display: flex;
+    justify-content: space-between;
+}
+.soc-icon-img{
+    width: 38px;
+    height: 38px;
+}
+
+ @media (max-width:992px) {
+        header{
+           height: 16vh;
+        }
+        h1{
+           color: white;
+           font-size: 65px;
+           width: 76vw;
+           height: 16vh;
+       }
+       .text_container{
+           width: 39vw;
+           height: 70vh;
+       }
+       .descriptiom{
+           width: 47vw;
+       }
+       .search {
+        height: 10vh;
+       }
+       .stroca-poiska {
+        width: 33vh;
+        height: 4vh;}
+        .bu-logo{
+            width: 52px;
+        height: 37px;
+        }
+        .burger-block {
+            height: 9.5vh;
+        }
+        .header-burger {
+            position: fixed;
+            width: 50%;
+            height: 100%;
+            z-index: 15;
+            right: -70%;
+            transition: 0.25s all ease;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .header-burger-close {
+            margin-top: -545px;
+            margin-left: 290px;
+        }
+        .information-fo-user {
+            height: 31vh;
+        }
+        .header-burger-close {
+            margin-top: -373px;
+            margin-left: 290px;
+        }
+        .dop-container-one {
+            height: 52vh;
+        }
+        .img-portfolio-1 {
+            width: 40vw;
+            height: 27vh;
+        }
+        .text-1 {
+            font-size: 18px;
+            width: 27vw;
+        }
+        .text-2 {
+            font-size: 18px;
+            width: 29vw;
+        }.block-text-2 {
+            height: 6vh;
+        }
+        .container-picture-one {
+            width: 40vw;
+            height: 40vh;
+        }
+        .container-picture-two {
+            width: 40vw;
+            height: 40vh;
+        }
+        .portfolio-container {
+            width: 85%;
+            height: 41vh;
+        }
+        .dop-container-one {
+            height: 42vh;
+        }
+        .text-3 {
+            width: 26vw;
+        }
+        .general-container-portfolio {
+            width: 100%;
+            height: 132vh;
+            background-color: #444444;
+        }
+        .footer_container-general {
+            width: 100%;
+            height: 15vh;
+        }
+        .button-sec-5 {
+            margin-right: 42px;
+        }
+        .btn-sec5 {
+            width: 17vw;
+            height: 4vh;
+        }
+        .checkbox-container {
+            margin-left: 10px;
+        }
+        .text-footer-container {
+            height: 7vh;
+        }
+        .place-text {
+            font-size: 13px;
+        }
+        .telephone-text {
+        font-size: 14px;
+    }
+        .us-soc {
+        font-size: 16px;
+    }
+        .icons {
+        height: 4vh;
+    }
+    .social-networs-container {
+        width: 97%;
+    }
+    footer{
+    width: 100%;
+    height: 55vh;
+}
+    }
+@media (max-width:430px){
+    .logo-header {
+        width: 71px;
+        height: 77px;
+    }
+    h1 {
+        color: white;
+        font-size: 34px;
+        width: 76vw;
+        height: 16vh;
+    }
+        .stroca-poiska {
+            width: 20vh;
+            height: 4vh;
+        }
+        .search {
+            height: 7vh;
+        }
+        .bu-logo {
+            width: 39px;
+            height: 26px;
+        }
+        .burger-block {
+            height: 6.5vh;
+        }
+        .heading-portfolio {
+            font-size: 32px;
+        }
+            .portfolio-container {
+                width: 85%;
+                height: 38vh;
+            }
+            .img-portfolio-1 {
+                width: 43vw;
+                height: 28vh;
+            }
+            .text-2 {
+                font-size: 11px;
+                width: 30vw;
+            }
+            .text-1 {
+                font-size: 11px;
+                width: 27vw;
+            }
+            .text-3 {
+                width: 45vw;
+                font-size: 12px;
+            }
+            .description {
+                width: 37vw;
+                height: 10vh;
+                background-color: #D49E35;
+            }
+            .footer_container-general {
+                /* margin-top: -279px; */
+            }
+            .social-networs-container {
+                width: 76%;
+                margin-top: -22px;
+            }
+            .soc-icon-img {
+                width: 24px;
+                height: 28px;
+            }
+            .place-text {
+                font-size: 12px;
+                width: 125px;
+            }
+            .telephone-text {
+                font-size: 15px;
+                width: 175px;
+            }
+            .logo-footer {
+                width: 88px;
+                height: 78px;
+            }
+            footer{
+                height: 34vh;
+            }
+            .burger-block {
+                height: 6.5vh;
+            }
+            .header-burger {
+                width: 100%;
+                right: 3%;
+            }
+            .header-burger-close {
+                margin-top: -373px;
+                margin-left: 281px;
+            }
+            .information-fo-user {
+                height: 39vh;
+            }
+        }
+        
+
+
